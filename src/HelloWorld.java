@@ -3,19 +3,23 @@ public class HelloWorld {
 
 	public static void main(String[] args) 
 	{
-		int Zahl = 7;
-		while(Zahl>1)
+		for(int i = 2; i<= 100; i++)
 		{
-		if (Zahl % 2 != 0)
+		while(i!=100)
 		{
-		Zahl = Zahl*3+1;	
+		while(i>=1)
+		{
+		if (i % 2 != 0)
+		{
+		i = i*3+1;	
 		}
 		else
 		{
-		Zahl = Zahl/2;	
+		i = i/2;	
 		}
-		System.out.print(Zahl +", ");
+		System.out.print(i +", ");
 		}
 	}
-
+	}
+	}
 }
